@@ -1,13 +1,14 @@
 var firebaseConfig = {
     apiKey: "AIzaSyBfc6FqXYgJQh92qqM6SeFj0Mp_ynFgQFI",
     authDomain: "portafolio-88ce3.firebaseapp.com",
-    databaseURL: "https://portafolio-88ce3.firebaseio.com",
+    databaseURL: "http://portafolio-88ce3.firebaseio.com",
     projectId: "portafolio-88ce3",
     storageBucket: "portafolio-88ce3.appspot.com",
     messagingSenderId: "1047604769765",
     appId: "1:1047604769765:web:ee8195413eeb0e79c3350c"
-};
-firebase.initializeApp(firebaseConfig);
+}
+
+firebase.initializeApp(firebaseConfig)
 
 const form = document.getElementById('formulario')
 
